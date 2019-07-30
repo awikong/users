@@ -1,0 +1,333 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	background: #f7f7f7;
+}
+
+a {
+	text-decoration: none;
+}
+
+.not_found {
+	text-align: center;
+	padding: 25% 0 0 0;
+}
+
+.not_found a {
+	color: #478dc8;
+}
+
+.not_found a:hover {
+	text-decoration: underline;
+}
+
+.width_960px {
+	width: 960px;
+	margin: auto;
+}
+
+.top {
+	height: 55px;
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.logo img {
+	float: left;
+	margin: 11px 0 0 0;
+}
+
+.logo span {
+	font-size: 16px;
+	color: #333;
+	float: left;
+	margin: 16px 0 0 15px;
+}
+
+.logo:hover span {
+	color: #478dc8;
+}
+
+.add_user {
+	background: #478dc8;
+	color: #fff;
+	font-size: 13px;
+	border-radius: 10px;
+	float: right;
+	height: 26px;
+	padding: 6px 10px 0 10px;
+	margin: 11px 0 0 0;
+}
+
+.add_user:hover {
+	background: #4c99d9;
+}
+
+.content {
+	width: 100%;
+	border-radius: 10px;
+	background: #fff;
+	border: 1px solid #e6e6e6;
+	margin: 20px 0 0 0;
+}
+
+.content_header {
+	background: #fcfcfc;
+	height: 35px;
+	width: 940px;
+	color: #333;
+	border-radius: 10px 10px 0 0;
+	border-bottom: 1px solid #e6e6e6;
+	font-size: 16px;
+	padding: 15px 0 0 20px;
+}
+
+.filter {
+	background: #fcfcfc;
+	height: 45px;
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+	border-bottom: 1px solid #e6e6e6;
+	font-size: 13px;
+}
+
+.filter span {
+	color: #555;
+	float: left;
+	margin: 15px 0 0 20px;
+}
+
+.filter a {
+	float: left;
+	color: #478dc8;
+	margin: 15px 0 0 20px;
+}
+
+.filter a:hover {
+	text-decoration: underline;
+}
+
+.panel {
+	width: 100%;
+	margin: 10px 20px;
+	clear: both;
+	color: #999;
+	font-size: 13px;
+	float: left;
+}
+
+.panel_name {
+	width: 200px;
+	float: left;
+}
+
+.panel_phone {
+	width: 200px;
+	float: left;
+	margin: 0 0 0 20px;
+}
+
+.panel_email {
+	width: 200px;
+	float: left;
+	margin: 0 0 0 20px;
+}
+
+.panel_date {
+	width: 200px;
+	float: left;
+	margin: 0 0 0 20px;
+}
+
+.user {
+	width: 940px;
+	height: 35px;
+	padding: 15px 0 0 20px;
+	clear: both;
+	float: left;
+	color: #333;
+	font-size: 14px;
+	border-top: 1px solid #e6e6e6;
+}
+
+.user_not {
+	width: 940px;
+	height: 35px;
+	padding: 15px 0 0 20px;
+	clear: both;
+	float: left;
+	color: #333;
+	font-size: 14px;
+	border-top: 1px solid #e6e6e6;
+	text-align: center;
+}
+
+.user_name {
+	width: 200px;
+	float: left;
+	font-weight: 700;
+}
+
+.user_phone {
+	width: 200px;
+	float: left;
+	margin: 0 0 0 20px;
+}
+
+.user_email {
+	width: 200px;
+	float: left;
+	margin: 0 0 0 20px;
+}
+
+.user_date {
+	width: 200px;
+	float: left;
+	margin: 0 0 0 20px;
+}
+
+.user_edit {
+	float: right;
+	margin: 3px 15px 0 0;
+	opacity: 0.7;
+}
+
+.user_edit:hover {
+	opacity: 1;
+}
+
+.user form {
+	float: right;
+	margin: 3px 20px 0 0;
+}
+
+.user form button {
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+	outline: none;
+}
+
+.user form button img {
+	opacity: 0.7;
+}
+
+.user form button:hover img {
+	opacity: 1;
+}
+
+.footer {
+	margin: 10px 0 10px 0;
+	font-size: 13px;
+	color: #555;
+	float: left;
+	width: 100%;
+}
+
+.copyright {
+	float: left;
+}
+
+.author {
+	float: right;
+}
+
+.author a {
+	color: #478dc8;
+}
+
+.author a:hover {
+	text-decoration: underline;
+}
+
+.block_form_left {
+	float: left;
+	width: 43%;
+	text-align: right;
+	padding: 20px 0;
+}
+
+.block_form_left div {
+	font-size: 13px;
+	color: #555;
+	margin: 8px 15px 25px 0;
+}
+
+.block_form_right {
+	float: left;
+	width: 57%;
+	padding: 20px 0;
+}
+
+.block_form_right input {
+	height: 32px;
+	width: 220px;
+	border-radius: 5px;
+	border: 1px solid #e6e6e6;
+	padding: 0 10px;
+	color: #333;
+	margin: 0 0 10px 0;
+	float: left;
+	clear: both;
+	outline: none;
+}
+
+.block_form_right input:focus {
+	border: 1px solid #cccccc;
+}
+
+.block_form_right button {
+	background: #478dc8;
+	color: #fff;
+	font-size: 13px;
+	border-radius: 10px;
+	border: none;
+	height: 32px;
+	padding: 0 10px;
+	margin: 10px 0 0 0;
+	cursor: pointer;
+	outline: none;
+}
+
+.block_form_right button:hover {
+	background: #4c99d9;
+}
+
+#delete {
+	background: none;
+	color: #333;
+	font-size: 13px;
+	border: none;
+	height: 32px;
+	padding: 0 10px;
+	margin: 10px 0 0 0;
+	cursor: pointer;
+	outline: none;
+}
+
+#delete:hover {
+	text-decoration: underline;
+}
+
+.ryple {
+	font-size: 13px;
+	color: #333;
+	padding: 15px;
+	margin: 20px 20px 0 20px;
+	background: #ddf2da;
+	border: 1px solid #bee5b8;
+	border-radius: 5px;
+}
+
+.ryple a {
+	float: left;
+	margin: 2px 0 0 0;
+	color: #478dc8;
+}
+
+.ryple a:hover {
+	text-decoration: underline;
+}
